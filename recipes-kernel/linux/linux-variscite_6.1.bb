@@ -17,7 +17,7 @@ DEPENDS += "lzop-native bc-native"
 
 DEFAULT_PREFERENCE = "1"
 
-KERNEL_SRC ?= "git://github.com/connetech/linux-imx;protocol=https"
+KERNEL_SRC ?= "git@github.com:connetech/linux-imx;protocol=git"
 
 SRCBRANCH = "lf-6.1.y_var03"
 SRCREV = "49b1999141230f73d7f6710597cf4f396c976f58"
